@@ -44,7 +44,7 @@ env:
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
   TXT_APP_LOGO_URL: ''
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: 'Manual of Wessel '
+  TXT_MAIN_PAGE_HEADER: 'Manual of Wessel'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
