@@ -7,13 +7,13 @@ env:
   NG_USE_SERVICE_WORKER: 'true'
   #
   # Use the "Offers" content-type: (set to 'true' / 'false')
-  NG_USE_OFFERS: 'true'
+  NG_USE_OFFERS: 'false'
   #
   # Use the "Q&A" content-type: (set to 'true' / 'false')
-  NG_USE_Q_AND_AS: 'true'
+  NG_USE_Q_AND_AS: 'false'
   #
   # When using "Q&A"s, you can enable search: (set to 'true' / 'false')
-  NG_USE_Q_AND_A_SEARCH: 'true'
+  NG_USE_Q_AND_A_SEARCH: 'false'
   #
   # Enable Feedback-prompt on Sub-Category and Offer pages (set to 'true' / 'false')
   NG_USE_FEEDBACK_PROMPT: 'false'
@@ -40,16 +40,15 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: ''
+  TXT_APP_NAME: 'Manual of Wessel'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
   TXT_APP_LOGO_URL: ''
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: ''
+  TXT_MAIN_PAGE_HEADER: 'Manual of Wessel'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
-    \n
-    \n
+    Find out how I function and how to best work with me. \n
   #
   # An (optional) notice on the top of the screen, can be overwritten on sub-pages per-region by each region's sheet.
   TXT_MAIN_PAGE_NOTICE: ''
@@ -98,7 +97,7 @@ env:
     Information
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    178bY-8tBmrN_oQr9aj1R4GM7zec5CMG2NqT_nTXaAnA
 
 # #############################################################################
 #
